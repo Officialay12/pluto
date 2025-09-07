@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pluto | Premium Website Templates & 3D Models</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.4/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.4/dist/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-container">
+            <div class="pluto-planet">
+                <div class="planet-core"></div>
+                <div class="planet-ring"></div>
+            </div>
+            <div class="loading-text">
+                <span>P</span>
+                <span>L</span>
+                <span>U</span>
+                <span>T</span>
+                <span>O</span>
+                <span class="dot">.</span>
+                <span class="dot">.</span>
+                <span class="dot">.</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-planet logo-icon"></i>
+                <span>Pluto</span>
+            </a>
+            
+            <button class="mobile-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#templates">Templates</a></li>
+                    <li><a href="#models">3D Models</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    
+                    <div class="mobile-actions">
+                        <a href="#" class="btn btn-outline">Sign In</a>
+                        <a href="#" class="btn btn-primary">Get Started</a>
+                    </div>
+                </ul>
+            </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <video autoplay muted loop playsinline>
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-digital-waves-9885-large.mp4" type="video/mp4">
+            </video>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Premium Website Templates & 3D Models</h1>
+                <p class="hero-subtitle">Discover the perfect template for your next project with our collection of professionally designed website templates and 3D models.</p>
+                
+                <div class="hero-actions">
+                    <a href="#templates" class="btn btn-primary">Browse Templates</a>
+                    <a href="#models" class="btn btn-outline">View 3D Models</a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-value">500+</span>
+                        <span class="stat-label">Templates</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">200+</span>
+                        <span class="stat-label">3D Models</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">98%</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Templates Section -->
+    <section id="templates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Premium Templates</h2>
+                <p class="section-subtitle">Browse our collection of professionally designed website templates for any industry or purpose.</p>
+            </div>
+            
+            <div class="templates-grid">
+                <!-- Template 1 -->
+                <div class="template-card">
+                    <div class="template-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1015&q=80" alt="Business Template">
+                        <div class="template-overlay">
+                            <a href="#" class="btn btn-primary">Preview</a>
+                        </div>
+                    </div>
+                    <div class="template-info">
+                        <h3 class="template-title">Business Pro</h3>
+                        <p class="template-description">Modern business template with clean design and all essential sections.</p>
+                        <div class="template-price">$49</div>
+                    </div>
+                </div>
+                
+                <!-- Template 2 -->
+                <div class="template-card">
+                    <div class="template-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="E-commerce Template">
+                        <div class="template-overlay">
+                            <a href="#" class="btn btn-primary">Preview</a>
+                        </div>
+                    </div>
+                    <div class="template-info">
+                        <h3 class="template-title">E-Commerce Plus</h3>
+                        <p class="template-description">Complete online store template with product pages and shopping cart.</p>
+                        <div class="template-price">$59</div>
+                    </div>
+                </div>
+                
+                <!-- Template 3 -->
+                <div class="template-card">
+                    <div class="template-img">
+                        <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Portfolio Template">
+                        <div class="template-overlay">
+                            <a href="#" class="btn btn-primary">Preview</a>
+                        </div>
+                    </div>
+                    <div class="template-info">
+                        <h3 class="template-title">Creative Portfolio</h3>
+                        <p class="template-description">Showcase your work with this visually stunning portfolio template.</p>
+                        <div class="template-price">$39</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Models Section -->
+    <section id="models" style="background: rgba(30, 30, 30, 0.5);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">3D Models Collection</h2>
+                <p class="section-subtitle">Enhance your projects with our premium 3D models, ready to use in any application.</p>
+            </div>
+            
+            <div class="models-container">
+                <!-- Model 1 -->
+                <div class="model-card">
+                    <div class="model-preview">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <div class="model-info">
+                        <h3 class="template-title">Abstract Structure</h3>
+                        <p class="template-description">Modern abstract 3D structure for architectural visualization.</p>
+                        <div class="template-price">$29</div>
+                    </div>
+                </div>
+                
+                <!-- Model 2 -->
+                <div class="model-card">
+                    <div class="model-preview">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <div class="model-info">
+                        <h3 class="template-title">Futuristic Vehicle</h3>
+                        <p class="template-description">High-poly futuristic vehicle model with detailed interior.</p>
+                        <div class="template-price">$45</div>
+                    </div>
+                </div>
+                
+                <!-- Model 3 -->
+                <div class="model-card">
+                    <div class="model-preview">
+                        <i class="fas fa-dice-d20"></i>
+                    </div>
+                    <div class="model-info">
+                        <h3 class="template-title">Character Model</h3>
+                        <p class="template-description">Realistic human character model with multiple pose options.</p>
+                        <div class="template-price">$59</div>
+                    </div>
+                </div>
+                
+                <!-- Model 4 -->
+                <div class="model-card">
+                    <div class="model-preview">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="model-info">
+                        <h3 class="template-title">Crystal Collection</h3>
+                        <p class="template-description">Set of beautifully crafted crystal models with refractive properties.</p>
+                        <div class="template-price">$39</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Pluto</h2>
+                <p class="section-subtitle">Our templates and models come with everything you need for your next project.</p>
+            </div>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Fully Responsive</h3>
+                    <p>All our templates are fully responsive and look great on any device.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="feature-title">Clean Code</h3>
+                    <p>Well-organized and commented code makes customization easy.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="feature-title">Easy Customization</h3>
+                    <p>Change colors, fonts and layouts with simple configuration.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="feature-title">24/7 Support</h3>
+                    <p>Our support team is always ready to help you with any questions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" style="background: rgba(30, 30, 30, 0.5);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Hear from some of our satisfied customers who have used our templates.</p>
+            </div>
+            
+            <div class="testimonials-container">
+                <!-- Testimonial 1 -->
+                <div class="testimonial">
+                    <p class="testimonial-text">The template I purchased from Pluto was exactly what I needed for my client project. The code was clean and well-documented, making customization a breeze.</p>
+                    <div class="testimonial-author">Sarah Johnson, Web Designer</div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial">
+                    <p class="testimonial-text">The 3D models from Pluto have elevated my architectural visualization projects. The quality is exceptional and the pricing is very reasonable.</p>
+                    <div class="testimonial-author">Michael Chen, Architect</div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial">
+                    <p class="testimonial-text">As a freelance developer, Pluto's templates have saved me countless hours. The responsive design works perfectly on all devices.</p>
+                    <div class="testimonial-author">Alex Rodriguez, Developer</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1 -->
+                <div class="footer-col">
+                    <h4>Pluto</h4>
+                    <p>Premium website templates and 3D models for professionals.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Column 2 -->
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Website Templates</a></li>
+                        <li><a href="#">3D Models</a></li>
+                        <li><a href="#">UI Kits</a></li>
+                        <li><a href="#">Plugins</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3 -->
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Affiliate Program</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4 -->
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Pluto Templates. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
