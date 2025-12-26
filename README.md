@@ -9,7 +9,7 @@ https://officialay12.github.io/pluto/Pluto/
 
 ## 🧠 What Is Pluto?
 
-**Pluto is not just a demo — it is a commercial-ready website template.**
+**Pluto is not just a demo  it is a commercial-ready website template.**
 
 It is crafted to be:
 - Easily customizable
